@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "IFMedium",
+    "slug": "ifmedium-2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    }
+  }
+}
