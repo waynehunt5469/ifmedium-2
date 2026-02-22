@@ -1,0 +1,20 @@
+{
+  "name": "ifmedium-2",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+  "postCreateCommand": "npm install",
+  "forwardPorts": [8081, 19000, 19001],
+  "portsAttributes": {
+    "8081": {
+      "label": "Metro Bundler",
+      "onAutoForward": "notify"
+    },
+    "19000": {
+      "label": "Expo DevTools",
+      "onAutoForward": "notify"
+    },
+    "19001": {
+      "label": "Expo Tunnel/Manifest",
+      "onAutoForward": "notify"
+    }
+  }
+}
